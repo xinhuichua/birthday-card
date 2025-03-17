@@ -6,20 +6,21 @@
   }
   body {
     background-color: #fdbf00;
-  }
-  .card {
-    width: 1000px; /*edited*/
-height: 600px;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    width: 1000px;
+    height: 600px;
     -webkit-perspective: 1200px;
     perspective: 1200px;
     transition: 1s;
-  }
+}
+
   .card:hover {
     transform: rotate(-5deg);
   }
