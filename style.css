@@ -8,7 +8,7 @@
     background-color: #fdbf00;
   }
   .card {
-    width: 1000px;
+    width: 1000px; /*edited*/
 height: 600px;
     position: absolute;
     margin: auto;
